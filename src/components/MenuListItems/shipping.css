@@ -1,0 +1,61 @@
+/* signup.css */
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column; /* Set to column layout */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Align items to the top */
+  height: 100vh;
+}
+
+.signup-header {
+  font-size: 24px; /* Increase font size */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Make the input width 100% */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,25 @@
+/* AddProductPage.css */
+
+/* Center-align the heading */
+.add-product-heading {
+  text-align: center;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Reduce the font size and adjust box size */
+.add-product-form {
+  font-size: 16px; /* Adjust the font size as needed */
+  max-width: 400px; /* Adjust the maximum width of the form container */
+  margin: 1 auto; /* Center-align the form */
+}
+
+/* Style the submit button */
+.add-product-button {
+  display: block;
+  margin: 0 auto; /* Center-align the button */
+  background-color: #007bff; /* Example button background color */
+  color: white; /* Example text color */
+  padding: 10px 10px; /* Example padding */
+  border: none;
+  cursor: pointer;
+}
